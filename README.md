@@ -1,6 +1,9 @@
+
 # 🚀 LaunchFlow – Modern Product Landing Page
 
 **LaunchFlow** is a stylish and responsive **Tailwind CSS** landing page template built for startups, SaaS tools, app launches, and modern product showcases. Built with clean code and smooth design, it’s ideal for converting visitors into users.
+
+---
 
 ## 📸 Live Preview
 
@@ -10,6 +13,8 @@
 
 > 💡 Preview the site instantly via [Netlify Demo](https://launchflow.netlify.app)
 
+---
+
 ## 🚀 Features
 
 * ✅ Fully responsive layout
@@ -18,19 +23,24 @@
 * 🎯 Optimized for product marketing and lead conversion
 * 🧑‍💻 Developer-friendly folder structure
 
+---
+
 ## 📁 Folder Structure
 
+```
 LaunchFlow/
 ├── .vscode/                 # Editor settings (optional)
 ├── assets/                 # Static images, logos, icons
 ├── node_modules/           # Installed npm dependencies
 ├── src/                    # Source CSS files with Tailwind directives
-│   └── input.css 
-│   └── output.css  # Tailwind input CSS (@tailwind base/components/utilities)
+│   └── input.css           # Tailwind input CSS (@tailwind base/components/utilities)
 ├── index.html              # Main HTML page
 ├── package.json            # NPM scripts and dependencies
 ├── package-lock.json       # Dependency lockfile
-            # Generated Tailwind CSS (optional, if included)
+└── output.css              # Generated Tailwind CSS (optional, if included)
+```
+
+---
 
 ## 🛠️ Getting Started
 
@@ -39,6 +49,9 @@ LaunchFlow/
 ```bash
 git clone https://github.com/magheswaran/LaunchFlow.git
 cd LaunchFlow
+```
+
+---
 
 ### 2. Install Dependencies
 
@@ -46,7 +59,9 @@ Make sure you have Node.js installed, then:
 
 ```bash
 npm install
+```
 
+---
 
 ### 3. Build Tailwind CSS
 
