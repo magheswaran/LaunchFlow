@@ -29,15 +29,16 @@
 
 ```
 LaunchFlow/
-├── .vscode/                 # Editor settings (optional)
-├── assets/                 # Static images, logos, icons
-├── node_modules/           # Installed npm dependencies
-├── src/                    # Source CSS files with Tailwind directives
-│   └── input.css           # Tailwind input CSS (@tailwind base/components/utilities)
-├── index.html              # Main HTML page
-├── package.json            # NPM scripts and dependencies
-├── package-lock.json       # Dependency lockfile
-└── output.css              # Generated Tailwind CSS (optional, if included)
+├── .vscode/              # Editor configuration (optional)
+├── assets/               # Static images & preview screenshots
+├── node_modules/         # Installed dependencies (auto-generated)
+├── src/
+│   ├── input.css         # Tailwind CSS source
+│   └── output.css        # Compiled Tailwind CSS
+├── index.html            # Main page
+├── package.json          # NPM configuration
+├── package-lock.json     # Lockfile for dependencies
+└── README.md             # Project documentation
 ```
 
 ---
@@ -124,5 +125,3 @@ Pull requests and suggestions are welcome!
 Let’s build and launch awesome things together. 🚀
 
 ---
-
-Let me know if you want this in dark mode version or need `tailwind.config.js` setup included too!
